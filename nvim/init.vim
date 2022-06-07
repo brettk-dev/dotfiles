@@ -35,6 +35,13 @@ augroup end
 lua require('plugins')
 
 
+" ALE
+let g:ale_completion_enabled = 1
+set omnifunc=ale#completion#OmniFunc
+
+let g:ale_lint_on_text_change = 'never'
+let g:ale_lint_on_enter = 0
+
 let g:ale_fix_on_save = 1
 let g:ale_fixers = {
 \ '*': ['remove_trailing_lines', 'trim_whitespace'],
@@ -43,4 +50,8 @@ let g:ale_fixers = {
 \ 'typescript': ['prettier'],
 \ 'typescriptreact': ['prettier'],
 \ 'rust': ['rustfmt'],
+\ 'vue': ['prettier'],
 \}
+
+" statusline
+:set statusline=%f\ %y\ %h%w%m%r%=%-14.(%l,%c%V%)\ %P
