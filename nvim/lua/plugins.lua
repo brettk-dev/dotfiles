@@ -5,9 +5,13 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
-  use 'rstacruz/vim-closer'
   use 'w0rp/ale'
-  use 'posva/vim-vue'
+  use 'sheerun/vim-polyglot'
+  use 'tpope/vim-fugitive'
+  use 'tpope/vim-surround'
+  use 'tpope/vim-commentary'
+  use 'altercation/vim-colors-solarized'
+  use 'mattn/emmet-vim'
 
   use {
     'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' },

@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/home/brettk/.local/share/nvim/site/pack/packer/start/ale",
     url = "https://github.com/w0rp/ale"
   },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/home/brettk/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
+  },
   ["gitsigns.nvim"] = {
     config = { "\27LJ\2\0026\0\0\2\0\3\0\0066\0\0\0'\1\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rgitsigns\frequire\0" },
     loaded = true,
@@ -90,15 +95,30 @@ _G.packer_plugins = {
     path = "/home/brettk/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["vim-closer"] = {
+  ["vim-colors-solarized"] = {
     loaded = true,
-    path = "/home/brettk/.local/share/nvim/site/pack/packer/start/vim-closer",
-    url = "https://github.com/rstacruz/vim-closer"
+    path = "/home/brettk/.local/share/nvim/site/pack/packer/start/vim-colors-solarized",
+    url = "https://github.com/altercation/vim-colors-solarized"
   },
-  ["vim-vue"] = {
+  ["vim-commentary"] = {
     loaded = true,
-    path = "/home/brettk/.local/share/nvim/site/pack/packer/start/vim-vue",
-    url = "https://github.com/posva/vim-vue"
+    path = "/home/brettk/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://github.com/tpope/vim-commentary"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/brettk/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-polyglot"] = {
+    loaded = true,
+    path = "/home/brettk/.local/share/nvim/site/pack/packer/start/vim-polyglot",
+    url = "https://github.com/sheerun/vim-polyglot"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/brettk/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 
