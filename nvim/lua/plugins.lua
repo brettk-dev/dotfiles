@@ -12,6 +12,7 @@ return require('packer').startup(function()
   use 'tpope/vim-commentary'
   use 'altercation/vim-colors-solarized'
   use 'mattn/emmet-vim'
+  use 'ycm-core/YouCompleteMe'
 
   use {
     'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' },

@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  YouCompleteMe = {
+    loaded = true,
+    path = "/home/brettk/.local/share/nvim/site/pack/packer/start/YouCompleteMe",
+    url = "https://github.com/ycm-core/YouCompleteMe"
+  },
   ale = {
     loaded = true,
     path = "/home/brettk/.local/share/nvim/site/pack/packer/start/ale",

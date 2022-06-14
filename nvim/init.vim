@@ -37,9 +37,6 @@ lua require('plugins')
 
 
 " ALE
-let g:ale_completion_enabled = 1
-set omnifunc=ale#completion#OmniFunc
-
 let g:ale_lint_on_text_change = 'never'
 let g:ale_lint_on_enter = 0
 
