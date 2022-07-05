@@ -23,6 +23,7 @@ return require('packer').startup(function()
   use 'L3MON4D3/LuaSnip'
   use 'jose-elias-alvarez/null-ls.nvim'
   -- use 'MunifTanjim/prettier.nvim'
+  use 'morhetz/gruvbox'
 
   use {
     'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' },
