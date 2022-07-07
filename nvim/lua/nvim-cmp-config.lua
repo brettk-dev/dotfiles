@@ -18,7 +18,7 @@ require'lspconfig'.volar.setup{
     client.resolved_capabilities.document_formatting = false
     client.resolved_capabilities.document_range_formatting = false
   end,
-  filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'},
+  -- filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'},
   init_options = {
     typescript = {
       serverPath = '/home/brettk/.volta/tools/image/packages/typescript/lib/node_modules/typescript/lib/tsserverlibrary.js'
