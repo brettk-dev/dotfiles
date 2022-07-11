@@ -13,3 +13,5 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 
 vim.wo.number = true
 vim.opt.scrolloff = 10
+
+vim.opt.expandtab = true
