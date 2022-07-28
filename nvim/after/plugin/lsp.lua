@@ -1,6 +1,12 @@
 -- Enabled LSPs
 require('lspconfig').eslint.setup{}
-require('lspconfig').volar.setup{}
+require('lspconfig').volar.setup{
+  init_options = {
+    typescript = {
+      serverPath = '/home/brettk/.volta/tools/image/packages/typescript/lib/node_modules/typescript/lib/tsserverlibrary.js'
+    }
+  }
+}
 
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
